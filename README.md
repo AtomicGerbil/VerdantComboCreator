@@ -21,8 +21,10 @@ These are:
 2. Combo Filepath: `./combos/`
 
 
-Your file names for the combos follows the style of `comboN.json`, where `N` is a number, starting from 1.
-You understand that `formNames` is used to determine where combos are placed.
+Your file names for the combos follows the style of `comboN.json`, where `N` is a number. 
+The program reads from 1 and increments until it has filled out all combo keys.
+
+Along with the above assumption, you understand that `formNames` is used to determine where combos are placed.
 
     I.E: Let's say the first value in key `formNames` is `default`;
     `combo1.json`'s contents are written into:
