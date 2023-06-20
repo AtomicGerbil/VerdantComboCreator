@@ -7,6 +7,8 @@ This doesn't really create "combos" per-se, but essentially stitches multiple JS
 The motivation was to allow modders to be able to split dense portions of JSON and work on them separately, providing some level of organisation.
 Creating combos can feel bulky and leads to erroneous creations at times, since it is cumbersome to scroll through.
 
+This uses `getopt`; this DLL is necessary, so if you ever move the executable, move that file with it.
+
 ## Assumptions
 
 This application makes the following assumptions:
